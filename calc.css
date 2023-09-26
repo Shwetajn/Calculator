@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+
+.main {
+    background-color: burlywood;
+    width: 100%;
+    height: 50px;
+    padding: 5px 450px ;
+}
+
+.transparent-box{
+    position: relative;
+    margin: 30px 510px;
+    width: 350px;
+    height: 550px;
+    background-color: rgba(255, 255, 255, 0.5); /* Transparent white background */
+    border: 4px solid #3d7e92; 
+    border-radius: 5px;
+}
+
+#calc-screen{
+    position: absolute;
+    left: 6%;
+    top: 5%;
+    width: 300px;  
+    border: 5px solid black;  
+    border-radius: 3px;  
+    padding: 20px;  
+    margin: auto;  
+    background-color:rgb(50, 168, 80);
+}
+
+#clear{
+    position: absolute;
+    left: 6%;
+    top: 85%;
+    width: 300px;  
+    border: 5px solid black;  
+    border-radius: 3px;  
+    padding: 20px;  
+    margin: auto;  
+    background-color:rgb(216, 28, 28);
+    color: white;
+}
+
+.numbers{
+    position: absolute;
+    padding: 25px;
+    top: 16%;
+}
+input{
+    width: 20px;
+    background-color: green;
+    color: white;
+    border: 3px solid rgb(29, 28, 28);
+    border-radius: 5px;
+    padding: 26px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+input[type="button"]:active {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5); /* Add a shadow to indicate pressing */
+}
